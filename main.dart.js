@@ -49944,7 +49944,7 @@ case 3:h=b.a
 g=J.a7(h)
 n.a=A.aY(g.h(h,"hostURL"))
 n.b=A.aY(g.h(h,"database"))
-m=A.f7("GET",A.ds(B.d.L("http://",n.a)+"/"))
+m=A.f7("GET",A.ds(B.d.L("https://",n.a)+"/"))
 p=5
 s=8
 return A.u(J.aUZ(m).av1(0,B.q8),$async$xe)
@@ -49988,7 +49988,7 @@ n=J.a7(l)
 p.a=A.aY(n.h(l,"hostURL"))
 p.b=A.aY(n.h(l,"database"))
 A.ce("function call initiating")
-m=A.f7("GET",A.ds(B.d.L(B.d.L(B.d.L("http://",p.a)+"/916Advanced/StockMasterService.svc/GetStockMasterByTagNoAll?intCAT_ID=0&intST_TAGNO=",a)+"&strST_STOCKTYPE="+o+"&strDatabase=",p.b)))
+m=A.f7("GET",A.ds(B.d.L(B.d.L(B.d.L("https://",p.a)+"/916Advanced/StockMasterService.svc/GetStockMasterByTagNoAll?intCAT_ID=0&intST_TAGNO=",a)+"&strST_STOCKTYPE="+o+"&strDatabase=",p.b)))
 A.ce("request sent, waiting for response")
 s=4
 return A.u(m.ek(0),$async$f5)
@@ -50006,7 +50006,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L(B.d.L("http://",p.a)+"/916Advanced/PhotoService.svc/GetPhotoByPrefixTagNo?strPREFIX_TAGNO=",a)+"&strPHOTO_TYPE=TAG&strDatabase=",p.b))).ek(0),$async$u9)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L(B.d.L("https://",p.a)+"/916Advanced/PhotoService.svc/GetPhotoByPrefixTagNo?strPREFIX_TAGNO=",a)+"&strPHOTO_TYPE=TAG&strDatabase=",p.b))).ek(0),$async$u9)
 case 4:q=c
 s=1
 break
@@ -50021,7 +50021,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/PhotoService.svc/GetPhotoByTagNoByTransNo?intTAG_NO="+a+"&intTRANS_ROW="+b+"&strPHOTO_TYPE=SAMPLEPHOTO&strDatabase=",p.b))).ek(0),$async$q1)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/PhotoService.svc/GetPhotoByTagNoByTransNo?intTAG_NO="+a+"&intTRANS_ROW="+b+"&strPHOTO_TYPE=SAMPLEPHOTO&strDatabase=",p.b))).ek(0),$async$q1)
 case 4:q=d
 s=1
 break
@@ -50036,7 +50036,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/RateMasterService.svc/GetRateMasterByPurityCatIdDate?intCAT_ID="+a+"&intPURITY_ID="+b+"&strRATE_DATE="+c+"&strDatabase=",p.b))).ek(0),$async$q6)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/RateMasterService.svc/GetRateMasterByPurityCatIdDate?intCAT_ID="+a+"&intPURITY_ID="+b+"&strRATE_DATE="+c+"&strDatabase=",p.b))).ek(0),$async$q6)
 case 4:q=e
 s=1
 break
@@ -50051,7 +50051,7 @@ m=J.a7(n)
 p.a=A.aY(m.h(n,"hostURL"))
 p.b=A.aY(m.h(n,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/StaffMasterService.svc/GetStaffMasterByLike?strSTAFF_NAME=&strSTAFF_STATUS=&strSTAFF_TYPE=STAFF&strDatabase=",p.b))).ek(0),$async$q5)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/StaffMasterService.svc/GetStaffMasterByLike?strSTAFF_NAME=&strSTAFF_STATUS=&strSTAFF_TYPE=STAFF&strDatabase=",p.b))).ek(0),$async$q5)
 case 4:o=b
 s=o.b===200?5:7
 break
@@ -50074,7 +50074,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/OrderMasterService.svc/GetOrderMasterByAllIssue?intCAT_ID=1&strDatabase=",p.b))).ek(0),$async$u1)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/OrderMasterService.svc/GetOrderMasterByAllIssue?intCAT_ID=1&strDatabase=",p.b))).ek(0),$async$u1)
 case 4:q=b
 s=1
 break
@@ -50089,7 +50089,7 @@ m=J.a7(n)
 p.a=A.aY(m.h(n,"hostURL"))
 p.b=A.aY(m.h(n,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+u.o+a+"&strACC_CUSTTYPE=WORKER&intGROUP_ID=0&strACC_STATUS=Yes&strDatabase=",p.b))).ek(0),$async$qb)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+u.o+a+"&strACC_CUSTTYPE=WORKER&intGROUP_ID=0&strACC_STATUS=Yes&strDatabase=",p.b))).ek(0),$async$qb)
 case 4:o=c
 s=o.b===200?5:7
 break
@@ -50112,7 +50112,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+u.o+a+"&strACC_CUSTTYPE=CUSTOMER&intGROUP_ID=0&strACC_STATUS=Yes&strDatabase=",p.b))).ek(0),$async$tT)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+u.o+a+"&strACC_CUSTTYPE=CUSTOMER&intGROUP_ID=0&strACC_STATUS=Yes&strDatabase=",p.b))).ek(0),$async$tT)
 case 4:q=c
 s=1
 break
@@ -50127,7 +50127,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/AccTransMasterService.svc/GetAccTransMasterByCodeNo?intACC_ID=0&strCode="+a+"&strDatabase=",p.b))).ek(0),$async$tP)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/AccTransMasterService.svc/GetAccTransMasterByCodeNo?intACC_ID=0&strCode="+a+"&strDatabase=",p.b))).ek(0),$async$tP)
 case 4:q=c
 s=1
 break
@@ -50143,7 +50143,7 @@ p.a=A.aY(l.h(m,"hostURL"))
 p.b=A.aY(l.h(m,"database"))
 m=t.N
 o=A.Z(["Content-Type","application/json"],m,m)
-n=A.f7("POST",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/CommonFunctionsService.svc/GetId?strDatabase=",p.b)))
+n=A.f7("POST",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/CommonFunctionsService.svc/GetId?strDatabase=",p.b)))
 n.sIo(0,a)
 n.r.U(0,o)
 s=4
@@ -50162,7 +50162,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/TransMasterService.svc/GetTransMasterById?intTRANS_ID="+a+"&strTRANS_YEAR=2022-2023&strDatabase=",p.b))).ek(0),$async$pY)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/TransMasterService.svc/GetTransMasterById?intTRANS_ID="+a+"&strTRANS_YEAR=2022-2023&strDatabase=",p.b))).ek(0),$async$pY)
 case 4:q=c
 s=1
 break
@@ -50177,7 +50177,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/StockMasterService.svc/GetStockMasterByOrderNo?intCAT_ID=0&strORDERNO="+a+"&strST_STOCKTYPE=TAG&strDatabase=",p.b))).ek(0),$async$u2)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/StockMasterService.svc/GetStockMasterByOrderNo?intCAT_ID=0&strORDERNO="+a+"&strST_STOCKTYPE=TAG&strDatabase=",p.b))).ek(0),$async$u2)
 case 4:q=c
 s=1
 break
@@ -50192,7 +50192,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/AccTransMasterService.svc/GetAccTransMasterById?intACC_ID="+a+"&strDatabase=",p.b))).ek(0),$async$tR)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/AccTransMasterService.svc/GetAccTransMasterById?intACC_ID="+a+"&strDatabase=",p.b))).ek(0),$async$tR)
 case 4:q=c
 s=1
 break
@@ -50207,7 +50207,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/DaySheetService.svc/GetDaysheetByDate?strDAYSHEET_DATE="+a+"&strDatabase=",p.b))).ek(0),$async$tV)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/DaySheetService.svc/GetDaysheetByDate?strDAYSHEET_DATE="+a+"&strDatabase=",p.b))).ek(0),$async$tV)
 case 4:q=c
 s=1
 break
@@ -50223,7 +50223,7 @@ p.a=A.aY(l.h(m,"hostURL"))
 p.b=A.aY(l.h(m,"database"))
 m=t.N
 o=A.Z(["Content-Type","application/json"],m,m)
-n=A.f7("POST",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/TransMasterService.svc/InsertTransMaster?strDatabase=",p.b)))
+n=A.f7("POST",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/TransMasterService.svc/InsertTransMaster?strDatabase=",p.b)))
 n.sIo(0,a)
 n.r.U(0,o)
 s=4
@@ -50243,7 +50243,7 @@ p.a=A.aY(l.h(m,"hostURL"))
 p.b=A.aY(l.h(m,"database"))
 m=t.N
 o=A.Z(["Content-Type","application/json"],m,m)
-n=A.f7("POST",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/AccTransMasterService.svc/InsertAccTransMaster?strDatabase=",p.b)))
+n=A.f7("POST",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/AccTransMasterService.svc/InsertAccTransMaster?strDatabase=",p.b)))
 n.sIo(0,a)
 n.r.U(0,o)
 s=4
@@ -50262,7 +50262,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/StateMasterService.svc/GetStateMasterByAll?strSTATE_NAME=&strSTATE_CODE=&intCOUNTRY_ID=0&strSTATE_STATUS=Y&strDatabase=",p.b))).ek(0),$async$u7)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/StateMasterService.svc/GetStateMasterByAll?strSTATE_NAME=&strSTATE_CODE=&intCOUNTRY_ID=0&strSTATE_STATUS=Y&strDatabase=",p.b))).ek(0),$async$u7)
 case 4:q=b
 s=1
 break
@@ -50277,7 +50277,7 @@ n=J.a7(o)
 p.a=A.aY(n.h(o,"hostURL"))
 p.b=A.aY(n.h(o,"database"))
 s=4
-return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("http://",p.a)+"/916Advanced/StoneStockMasterService.svc/GetStonestockMasterByStockId?intST_ID="+a+"&strDatabase=",p.b))).ek(0),$async$u8)
+return A.u(A.f7("GET",A.ds(B.d.L(B.d.L("https://",p.a)+"/916Advanced/StoneStockMasterService.svc/GetStonestockMasterByStockId?intST_ID="+a+"&strDatabase=",p.b))).ek(0),$async$u8)
 case 4:q=c
 s=1
 break
